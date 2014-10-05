@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MGEditor Demo</title>
+    <meta charset="utf-8"/>
+    <link type="text/css" rel="stylesheet" href="css/mgang-common-1.0.css"/>
+    <link type="text/css" rel="stylesheet" href="css/qqface.css"/>
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.qqface.js"></script>
+    <style type="text/css">
+        #res-div{
+            width:600px;
+            min-height: 100px;
+            border:1px solid #bdbdbd;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="res-div">
+
+        </div>
+        <div class="mgeditor">
+            <div class="toolbar">
+                <mgtool class="smile"></mgtool>
+            </div>
+            <textarea style="width:600px;height: 200px;" id="editor">
+xxxxxx
+
+            </textarea>
+            <br/>
+            <button class="btn btn-primary" id="btn-publish">发表</button>
+            <button class="btn btn-default" id="btn-publish">发表</button>
+            <button class="btn btn-success" id="btn-publish">发表</button>
+            <button class="btn btn-warning btn-lg" id="btn-publish">发表</button>
+            <button class="btn btn-success btn-sm" id="btn-publish">发表</button>
+        </div>
+
+    </div>
+    <script type="text/javascript">
+        $(function(){
+            $(".smile").qqFace({
+                id : "facebox",
+                assign:"editor",
+                path:"img/qqface/"	//表情存放的路径
+            });
+            $(".btn").click(function(){
+                $("#res-div").html(replace_em($("#editor").val()));
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+/*
+mgang-common.1.0.css 版本1
+*/
+/*div形式的居中*/
+
+.container {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    *zoom: 1;
+}
+.container:before,
+.container:after {
+    display: table;
+    content: "";
+}
+.container:after {
+    clear: both;
+}
+.mgeditor{
+
+}
+.toolbar{
+    display: block;
+    padding: 0px;
+    padding-left: 3px;
+    padding-top: 3px;
+    margin: 0px;
+    line-height:24px;
+    text-align: left;
+    background-color: #89B4E0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color:white;
+}
+mgtool{
+    height: 24px;
+    width:24px;
+    display: inline-block;
+    padding:0px;
+    margin: 0px;
+}
+mgtool:hover{
+    cursor: pointer;
+}
+.smile{
+    background:url("../img/smile.gif");
+}
+
+.mgeditor textarea{
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+    resize: none;
+    border: 1px solid #bdbdbd;
+}
+.btn{
+    background-color: #ffffff;
+    color: gray;
+    display: inline-block;
+    padding:5px 10px;
+    border: 1px solid #bdbdbd;
+    font: 14px;
+    border-radius: 5px;
+}
+.btn-default{
+    background-color: honeydew;
+    color:black;
+}
+.btn-primary{
+    background-color: deepskyblue;
+    color:white;
+}
+.btn-warning{
+    background-color:sandybrown;
+    color:white;
+}
+.btn-success{
+    background-color: greenyellow;
+    color:white;
+}
+.btn-sm{
+    padding: 3px 8px;
+}
+.btn-lg{
+    padding: 8px 12px;
+}
+.btn:hover{
+    cursor: pointer;
+}
