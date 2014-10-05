@@ -11,7 +11,7 @@ MGEditor/
 --doc/               关于MGEditor项目的相关文档
 README.md            该项目的介绍文件
 </pre>
-<div>
+<div style="color:red;border:1px solid #bdbdbd;">
 1.2014.10.6之前实现了qq表情的插入功能。
 
 ---其他功能（对其，文字）等将陆续开发。
