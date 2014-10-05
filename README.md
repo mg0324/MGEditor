@@ -1,9 +1,9 @@
 MGEditor  
 ========
 
-<p>author:mlmw(梦来梦往) qq:1092017732</p>
+author:mlmw(梦来梦往) qq:1092017732
 
-****meigang开发的在线编辑器
+meigang开发的在线编辑器
 
 项目目录：
 MGEditor/
